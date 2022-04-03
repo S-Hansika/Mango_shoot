@@ -135,7 +135,7 @@ function draw() {
   textSize(60);
   text("YOU WIN :D", 400, 300);
   }
-  if(numberOfBalls==0 && score< 3){
+  if(numberOfBalls==0 && score<= 3){
     fill("red");
   textAlign("center");
   textSize(60);

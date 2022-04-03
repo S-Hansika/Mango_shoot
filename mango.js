@@ -1,7 +1,8 @@
 class Mango {
     constructor(x, y) {
       var options = {
-        isStatic: false
+        isStatic: false,
+        restitution:0.8
       };
   
       this.r = 48;
